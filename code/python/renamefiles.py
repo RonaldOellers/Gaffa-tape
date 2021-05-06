@@ -1,4 +1,4 @@
-#script for renameming SRR files downloaded from the GEO database (search at: ) into a format workable by downstream applications. This makes use of a (,) comma seperated .csv file as a dictionary (format: Experiment Title,SSR accession Number\n xxxxxx,SRRxxxxxx)
+#script for renameming SRR files downloaded from the GEO database (search at: https://www.ncbi.nlm.nih.gov/sra/) into a format workable by downstream applications. This makes use of a (,) comma seperated .csv file as a dictionary (format: Experiment Title,SSR accession Number\n xxxxxx,SRRxxxxxx)
 import os
 infile = input("Which file is the renaming dictionary?")
 file = open(infile, 'r')
