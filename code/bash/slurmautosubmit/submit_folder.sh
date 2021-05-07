@@ -66,7 +66,7 @@ then
 		fi
  		echo "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 		fn=`basename $file .sh`
-		#SlurmEasy -t $cores -m $RAM -l $logdir -n $fn -k -v -x $EXNODES "bash $folder/$file"
+		SlurmEasy -t $cores -m $RAM -l $logdir -n $fn -k -v -x $EXNODES "bash $folder/$file"
 		echo "Submitted $file to Slurm queue"
 	done
 
