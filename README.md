@@ -34,6 +34,7 @@ Tools for everyday use (suited as aliases) that make at-least my life easier.
 		- [Refresh the Slurm Que](#refresh-the-slurm-que)
 		- [Refresh the personal Slurm Que](#refresh-the-personal-slurm-que)
 		- [Slurm info formatted](#slurm-info-nicely-formatted)
+		- [Self refreshing Slurm Cluster Info Screen](#refresh-sinfo)
 		- [Test Checksums](#test-checksum)	 
  - # Python
 	 - [Rename SRR files to experiment names](#rename-srr-files)
@@ -92,6 +93,8 @@ A script that will refresh the general Slurm Que every 30 seconds so you can kee
 This does the same as [Refresh the Slurm Que](#refresh-the-slurm-que) however it only shows you the jobs of the user you specified in the refresh_slurm_queue_personal.sh file. I use this to keep track of my jobs.
 # Slurm info nicely formatted
 Nicely formatted output from the ```sinfo``` command
+# Refresh sinfo
+This will show you the nicely formated ```sinfo``` output and refresh it every 30 seconds.
 # Test Checksum
 You have two files that you would like to check if they are identical? Or you wanna get the md5 checksum of the files (yes I forgot to make it also only accept one single file as input). If you want the md5 sum of just a single file just type the filename in the prompt for file 1 and file 2.
 # Rename SRR Files
