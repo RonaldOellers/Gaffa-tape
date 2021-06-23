@@ -47,7 +47,7 @@ Tools for everyday use (suited as aliases) that make at-least my life easier.
 
 -  [make_slurm_submit_template.sh](#making-the-slurm-submit-template-files)
 
--  [slurmsubmit_template.sh](#slurmsubmit_template.sh)
+-  [slurmsubmit_template.sh](#slurmsubmit-template-file)
 
 -  [Submit Folder without user input](#submit-folder-without-user-input)
 
@@ -113,7 +113,7 @@ Script that will ask you how many Slurm submit template files you want to create
 
 ```
 
-# slurmsubmit_template.sh
+# Slurmsubmit Template File
 
 This file only serves as a template file to create the Slurm submit template scripts used by the Submit Folder scripts.
 
