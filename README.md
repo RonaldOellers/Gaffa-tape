@@ -185,7 +185,7 @@ This will show you the nicely formated ```sinfo``` output and refresh it every 3
 
 # Test Checksum
 
-You have two files that you would like to check if they are identical? Or you wanna get the md5 checksum of the files (yes I forgot to make it also only accept one single file as input). If you want the md5 sum of just a single file just type the filename in the prompt for file 1 and file 2.
+You have two files that you would like to check, if they are identical? Or you want get the md5 checksum of the files (yes I forgot to make it also only accept one single file as input). If you want the md5 sum of just a single file just type the filename in the prompt for file 1 and file 2.
 
 # Rename SRR Files
 
