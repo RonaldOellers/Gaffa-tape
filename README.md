@@ -169,11 +169,11 @@ If you have reoccurring meetings with the same person(s) aka a meeting which use
 
 # Refresh the Slurm Que
 
-A script that will refresh the general Slurm Que every 30 seconds so you can keep an eye on all jobs that are currently running.
+A script that will refresh the general Slurm Que every 30 seconds so you can keep an eye on all jobs that are currently running. Press Enter to refresh manually.
 
 # Refresh the personal Slurm Que
 
-This does the same as [Refresh the Slurm Que](#refresh-the-slurm-que) however it only shows you the jobs of the user you specified in the refresh_slurm_queue_personal.sh file. I use this to keep track of my jobs.
+This does the same as [Refresh the Slurm Que](#refresh-the-slurm-que) however it only shows you the jobs of the user you specified in the refresh_slurm_queue_personal.sh file. I use this to keep track of my jobs. Press Enter to refresh manually.
 
 # Slurm info nicely formatted
 
@@ -181,7 +181,7 @@ Nicely formatted output from the ```sinfo``` command
 
 # Refresh sinfo
 
-This will show you the nicely formated ```sinfo``` output and refresh it every 30 seconds.
+This will show you the nicely formated ```sinfo``` output and refresh it every 30 seconds. Press Enter to refresh manually.
 
 # Test Checksum
 
