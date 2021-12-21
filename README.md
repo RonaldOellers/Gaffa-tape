@@ -53,7 +53,7 @@ Tools for everyday use (suited as aliases) that make at-least my life easier.
 
 -  [Submit Folder](#submit-folder)
 
--  [GetSeqData]#get-sequencing-data)
+-  [GetSeqData](#get-sequencing-data)
 
 -  ## Misc
 
