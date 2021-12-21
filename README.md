@@ -53,6 +53,8 @@ Tools for everyday use (suited as aliases) that make at-least my life easier.
 
 -  [Submit Folder](#submit-folder)
 
+-  [GetSeqData]#get-sequencing-data)
+
 -  ## Misc
 
 -  [discinfo](#discinfo)
@@ -191,6 +193,9 @@ You have two files that you would like to check, if they are identical? Or you w
 
 # Get all filenames
 If you need to get all filenames in a directory eg. as input or for your samplesheet.
+
+# Get Sequencing Data
+If you need to make a soft link to your sequencing data directory to run pipelines or analysis
 
 # Rename SRR Files
 
