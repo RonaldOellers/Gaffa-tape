@@ -71,7 +71,7 @@ Tools for everyday use (suited as aliases) that make at-least my life easier.
 
 -  [Test Checksums](#test-checksum)
 
--  [Count Reads in fastqfile](#Get-Count-Reads-in-fastqfile)
+-  [Count Reads in fastqfile](#Count-Reads-in-fastqfile)
 
 -  [Get Sequencing Data](#Get-Sequencing-Data)
 
@@ -198,7 +198,7 @@ You have two files that you would like to check, if they are identical? Or you w
 # Get all filenames
 If you need to get all filenames in a directory eg. as input or for your samplesheet.
 
-# Get Count Reads in fastqfile
+# Count Reads in fastqfile
 This script can give you the number of reads in your .fastq.gz files either for all of them in a folder or for a single one that you specify
 
 # Get Sequencing Data
