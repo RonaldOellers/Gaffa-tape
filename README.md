@@ -71,6 +71,10 @@ Tools for everyday use (suited as aliases) that make at-least my life easier.
 
 -  [Test Checksums](#test-checksum)
 
+-  [Get Count Reads in fastqfile](#Get-Count-Reads-in-fastqfile)
+
+-  [Get Sequencing Data](# Get-Sequencing-Data)
+
 -  [Get all filenames](#get-all-filenames)
 
 -  # Python
@@ -193,6 +197,9 @@ You have two files that you would like to check, if they are identical? Or you w
 
 # Get all filenames
 If you need to get all filenames in a directory eg. as input or for your samplesheet.
+
+# Get Count Reads in fastqfile
+This script can give you the number of reads in your .fastq.gz files either for all of them in a folder or for a single one that you specify
 
 # Get Sequencing Data
 If you need to make a soft link to your sequencing data directory to run pipelines or analysis

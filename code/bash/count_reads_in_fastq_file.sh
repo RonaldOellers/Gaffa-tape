@@ -9,7 +9,7 @@ then
     do
         if [[ $file == *.fastq.gz ]]
         then
-            readnumber=$(zcat $input/$file | grep @A00931 | wc -l)
+            readnumber=$(zcat $input/$file | wc -l)/4|bc
             echo "${file} contains ${readnumber} reads"
         fi
     done
@@ -18,7 +18,7 @@ elif [ -f $input ]
 then
     if [[ $input == *.fastq.gz ]]
     then
-        readnumber=$(zcat $input | grep @A00931 | wc -l)
+        readnumber=$(zcat $input |  wc -l)/4|bc
         echo "${input} contains ${readnumber} reads"
     fi
 fi
