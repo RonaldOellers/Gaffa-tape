@@ -71,7 +71,7 @@ Tools for everyday use (suited as aliases) that make at-least my life easier.
 
 -  [Test Checksums](#test-checksum)
 
--  [Get Count Reads in fastqfile](#Get-Count-Reads-in-fastqfile)
+-  [Count Reads in fastqfile](#Get-Count-Reads-in-fastqfile)
 
 -  [Get Sequencing Data](#Get-Sequencing-Data)
 
