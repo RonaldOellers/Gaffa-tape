@@ -9,7 +9,8 @@ then
     do
         if [[ $file == *.fastq.gz ]]
         then
-            readnumber=echo $(zcat $input/$file | wc -l)/4|bc
+            linecount=`zcat $input/$file | wc -l`
+            readnumber=$(($linecount/4))
             echo "${file} contains ${readnumber} reads"
         fi
     done
@@ -18,7 +19,8 @@ elif [ -f $input ]
 then
     if [[ $input == *.fastq.gz ]]
     then
-        readnumber=echo $(zcat $input |  wc -l)/4|bc
+        linecount=`zcat $input | wc -l`
+        readnumber=$(($linecount/4))
         echo "${input} contains ${readnumber} reads"
     fi
 fi
