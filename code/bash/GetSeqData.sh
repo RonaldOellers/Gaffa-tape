@@ -2,7 +2,7 @@
 # make static variables
 emptystring=""
 fastq="./FASTQs/"
-# Ask user input for cores per job and RAM per cores as well as user to monitor and how many jobs should be used
+# Ask user input for Input/Parent Dir and Output Dir
 read -e -p "Input Files Parent directory: " input
 read -e -p "Directory to link input to:" output
 mkdir -p $output/FASTQs/
